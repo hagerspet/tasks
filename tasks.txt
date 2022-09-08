@@ -1,0 +1,43 @@
+(1)disadvantages of oop?
+1- Size:  ooprograms are much larger than other programs. In the early days of computing, space on hard drives, floppy drives and in memory was at a premium. Today we do not have these restrictions.
+2- Effort: ooprograms require a lot of work to create. For example, a great deal of planning goes into an object oriented program well before a single piece of code is ever written.
+3- Speed: ooprograms are slower than other programs, partially because of their size. Other aspects of OO Programs also demand more system resources, thus slowing the program down.
+(2)what is tabulation?
+There are two different ways to store the values so that the values of a sub-problem can be reused.
+Tabulation: Bottom Up
+Memoization: Top Down
+Tabulation: 
+With bottom-up, or tabulation, we start with the smallest problems and use the returned values to calculate larger values.
+We can think of it as entering values in a table, or spreadsheet, and then applying a formula to those values.
+(3)what is the difference between multi core programming and multi threading?
+Multicore refers to a computer or processor that has more than one logical CPU core, and that can physically execute multiple instructions at the same time. A computer's "core count" is the total number of cores the computer has: computers may have multiple processors, each of which might have multiple cores; the core count is the total number of cores on all of the processors.
+
+Multithreading refers to a program that can take advantage of a multicore computer by running on more than one core at the same time. In general, twice as many cores equals twice as much computing power (for programs that support multithreading) though some problems are limited by factors other than CPU usage; these problems will not experience gains that are as dramatic from multithreading.
+It's important to note that performance is not the only reason programs use many threads. More on that later.
+(4)How do u make API Requests in Python?
+In order to work with APIs in Python, we need tools that will make those requests. In Python, the most common library for making requests and working with APIs is the requests library. The requests library isn’t part of the standard Python library, so you’ll need to install it to get started.
+(5)what is cron job?
+Cron jobs are a standard method of scheduling tasks to run on your server. Cron is a service running in the background that will execute commands (jobs) at a specified time, or at a regular interval. Jobs and their schedules are defined in a configuration file called a crontab.
+(6)what is the libraries in c++ for ML?
+caffe=>deep learning framework
+microsoft cognitive toolkit (CNTK)
+mlpack library=>flexible ML library 
+DyNet
+shogun
+OpenNN
+shark library
+armadillo
+(7)what is design pattern?
+In software engineering, a design pattern is a general repeatable solution to a commonly occurring problem in software design. A design pattern isn't a finished design that can be transformed directly into code. It is a description or template for how to solve a problem that can be used in many different situations.
+(8)
+Centralized Database:It is the type of database that stores data at a centralized database system.
+Distributed Database:in distributed systems, data is distributed among different database systems of an organization.
+Relational Database:This database is based on the relational data model.
+NoSQL Database: type of database that is used for storing a wide range of data sets. 
+Cloud Database:A type of database where data is stored in a virtual environment and executes over the cloud computing platform.
+Object-oriented Databases:The type of database that uses the object-based data model approach for storing data in the database system.
+Hierarchical Databases:It is the type of database that stores data in the form of parent-children relationship nodes.
+Network Databases:It is the database that typically follows the network data model. 
+Personal Database:Collecting and storing data on the user's system defines a Personal Database.
+Operational Database:The type of database which creates and updates the database in real-time. 
+Enterprise Database:Large organizations or enterprises use this database for managing a massive amount of data. 
