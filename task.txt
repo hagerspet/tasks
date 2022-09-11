@@ -1,0 +1,51 @@
+-How do you avoid inheritance in oops?
+While one of Java's strengths is the concept of inheritance, in which one class can derive from another, sometimes it's desirable to prevent inheritance by another class. To prevent inheritance, use the keyword "final" when creating the class.
+-what is the difference between design pattern and architecture pattern?
+When we read about design patterns on the internet we note that there are 3 categories:
+
+Creational
+Structural
+Behavioral
+But when we create the architecture of a software, then we think about MVP, MVC or MVVM.
+
+For example, among creational patterns I found the singleton pattern, but I have also used singleton in my MPV.
+
+So my question is: Is a design pattern a over all structure of a product?
+
+If yes, then how singleton can be a design pattern? Because I can use it anywhere in my application. Basically, it is restricted only to create one instance at a time in memory, but doesn't this concept define how software is designed?
+
+If not, then where are MVP, MVC and MVVM in the three categories of patterns? And what is the difference between design and architecture of software?
+
+design-patterns
+architecture
+-what is the framework works in all tracks?
+Framework workflow 
+-what is hash table?
+تعد من أنواع هياكل البيانات المهمة والسريعة وسهلة التطبيق، حيث يمثل البيانات على شكل أزواج (مفتاح وقيمة)، يتم تعيين كل مفتاح (key) لقيمة (value) في جدول التجزئة، حيث تُستخدم المفاتيح لفهرسة القيم/ البيانات، وتتم معالجة المفاتيح لإنتاج فهرس (index) جديد ليتم تعيينه للعنصر المطلوب، هذه العملية تسمى التجزئة (hashing).
+
+ 
+
+افرض أن لديك (object) وتريد تعيين مفتاح له لتسهيل البحث، ولتخزين زوج (المفتاح/ القيمة)، يمكنك استخدام المصفوفة البسيطة لهيكلة البيانات حيث أن المفاتيح هي (integers) ويمكن استخدام المؤشر (index) لتخزين القيم بشكل مباشر، مع ذلك، في الحالات التي تكون فيها المفاتيح كبيرة ولا يمكن استخدامها كمؤشر بشكل مباشر، يجب استخدام التجزئة (hashing) لهيكلة البيانات.
+
+ 
+
+في التجزئة (hashing)، يتم تحويل المفاتيح الكبيرة إلى مفاتيح صغيرة باستخدام دالة التجزئة، ومن ثم يتم تخزين القيم في جدول التجزئة، وفكرة التجزئة تقوم على توزيع المدخلات (زوج من المفتاح والقيمة) بشكل موحد عبر مصفوفة، ويتم تعيين مفتاح لكل عنصر (مفتاح محوّل). باستخدام هذا المفتاح، يمكنك الوصول إلى العنصر في وقت هو “O(1)”، باستخدام المفتاح أيضاً، فإن الخوارزمية (دالة التجزئة) تقوم بحساب فهرس (index) والذي بدوره يشير لمكان يمكنك الاطلاع على قيمة أو إدراج قيمة.
+
+-difference heap and stack memory?
+
+Parameter	Stack	Heap
+Type of data structures	A stack is a linear data structure.	Heap is a hierarchical data structure.
+Access speed	High-speed access	Slower compared to stack
+Space management	Space managed efficiently by OS so memory will never become fragmented.	Heap Space not used as efficiently. Memory can become fragmented as blocks of memory first allocated and then freed.
+Access	Local variables only	It allows you to access variables globally.
+Limit of space size	Limit on stack size dependent on OS.	Does not have a specific limit on memory size.
+Resize	Variables cannot be resized	Variables can be resized.
+Memory Allocation	Memory is allocated in a contiguous block.	Memory is allocated in any random order.
+Allocation and Deallocation	Automatically done by compiler instructions.	It is manually done by the programmer.
+Deallocation	Does not require to de-allocate variables.	Explicit de-allocation is needed.
+Cost	Less	More
+Implementation	A stack can be implemented in 3 ways simple array based, using dynamic memory, and Linked list based.	Heap can be implemented using array and trees.
+Main Issue	Shortage of memory	Memory fragmentation
+Locality of reference	Automatic compile time instructions.	Adequate
+Flexibility	Fixed size	Resizing is possible
+Access time	Faster	Slower 
